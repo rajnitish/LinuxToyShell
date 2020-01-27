@@ -1,0 +1,35 @@
+	//printf("Shell no:%d",nshell);
+	// 1.commands to be implemented
+	// cp- use open , create file of 1/10/100 MB  and time to copy
+	// a simple shell
+	//	- an infinite loop
+	//	- display prompt
+	//	- Reading  a line of keyboard input as command
+	//	- spawn a process  having new process and execute user's command
+	//2. Shell read a line from input,
+	//     -parse the line, hey commands and input
+	//     - first look cmd in current directory,
+	//     -if not fund search in the spacal variable path
+	//     - should not run /usr/bin untill it is added to path
+	//     - filename do not have spaces in between
+	//     - may have max paraetres but mus have infinite lines for input
+	//	-executable filename is sh, and do not execute /bin/sh
+	//3. - few cmds are not separate programs. like exit
+	//	- implement cd   - chdir - if it do not work fine then handle exception , do not exit
+	//	-pushd as cd - push in stach, popd as off the stack and  cd into it
+	// 	-dirs print the content of the stacks
+	//4. path hold possible paths to search for executables.
+	//	- by default path is empty, may grow arbitrary size.
+	// write cmd to control path
+	//	path		display
+	//	path + some dir	add
+	//	path - some dir remove
+	/*
+	if(argc==3){
+		if(strcmp(argv[1],"copy")==0){
+			printf("this is copy command execution\n" );
+
+
+		}
+		return 0;
+	}*/
